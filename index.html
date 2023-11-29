@@ -1,604 +1,1158 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!-- Required meta tags --> 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>AloBytes</title>
-		<link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
-		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
-		<link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css">
-		<link rel="stylesheet" href="vendors/aos/css/aos.css">
-		<link rel="stylesheet" href="vendors/jquery-flipster/css/jquery.flipster.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="shortcut icon" href="images/alobytes2.png" />
-	</head>
-	<body data-spy="scroll" data-target=".navbar">
-		<div id="mobile-menu-overlay"></div>
-		<nav class="navbar navbar-expand-lg fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="#"><img src="images/alobytes3.png" alt="Alobytes"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-					<div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
-						<img src="images/logo-dark.svg" class="logo-mobile-menu" alt="logo">
-						<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
-					</div>
-					<ul class="navbar-nav ml-auto align-items-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#services">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#team">Team</a>
-						</li>
+<!doctype html>
+<html class="no-js" lang="en">
 
-						<li class="nav-item">
-							<a class="nav-link btn btn-success" href="#contact">+91-9525204775 </a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="page-body-wrapper">
-			<section id="home" class="home">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main-banner">
-								<div class="d-sm-flex justify-content-between">
-									<div data-aos="zoom-in-up">
-										<div class="banner-title">
-											<h3 class="font-weight-medium">
-												Transforming Ideas into Innovative Solutions!
-												
-											</h3>
-										</div>
-										<p class="mt-3">
-											Elevating Possibilities, From AI to the Web, IoT to Hardware, 3D designing to App development
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Alobytes - Your Innovative Solutions Provider</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/alobytes4.png">
 
-											<br>
-											– We’ve Got It All Covered!
-										</p>
-										<a href="#services" class="btn btn-secondary mt-3">Learn more</a>
-									</div>
-									<div class="mt-5 mt-lg-0">
-										<img src="images/group.png" alt="marsmello" class="img-fluid" data-aos="zoom-in-up">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="our-services" id="services">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<h5 class="text-dark">We’re offering</h5>
-							<h3 class="font-weight-medium text-dark mb-5">Creative Solutions Services</h3>
-						</div>
-					</div>
-					<div class="row" data-aos="fade-up">
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-								<img src="images/data-science.svg" width="20%" alt="datascience" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">Data Science
-								</h6>
-								
-									<div class="comment more">
-										Provide statistical and computational techniques to extract insights,
-										make predictions, and derive actionable recommendations from any size datasets.
-									</div>
-								
-							</div>
-						</div>
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box"   data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-								<img src="images/iot.svg" width="20%" alt="iot" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">IoT
-									Development
-								</h6>
-								<div class="comment more">
-									<p>
-										Connecting and managing a network of physical objects and devices to collect, exchange, 
-										and analyze data for various applications, including automation, monitoring, and optimization.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-								<img src="images/pcb.svg" width="20%" alt="pcb" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">
-									PCB Designing
-								</h6>
-								<div class="comment more">
-									<p>
-										Creation and optimization of printed circuit board layouts for electronic devices and systems.
-									</p>
-								</div>
-							</div>
-					</div>
-					<div class="row" data-aos="fade-up">
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box  pb-lg-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-								<img src="images/3d.svg" width="20%" alt="3d" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">
-									3D Designing
-								</h6>
-								<div class="comment more">
-									<p>
-										Creation of three-dimensional digital models and the fabrication of physical objects
-										using additive manufacturing techniques.
-									</p>
-									</div>
-								</div>
-							</div>
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box pb-lg-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-								<img src="images/mobile.svg" width="15%" alt="mobile" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">
-									Application Development
-								</h6>
-								<div class="comment more">
-									<p>
-										Designing, coding, testing, and deployment of
-										applications for smartphones and tablets.
-									</p>
-									</div>
-								</div>
-							</div>
-						<div class="col-sm-4 text-center text-lg-left">
-							<div class="services-box pb-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-								<img src="images/website.svg" width="20%" alt="website" data-aos="zoom-in">
-								<h6 class="text-dark mb-3 mt-4 font-weight-medium">
-									Website Building
-								</h6>
-								<div class="comment more">
-									<p>
-										Creation and maintenance of web-based applications and sites, from design to functionality.
-									</p>
-									</div>
-								</div>
-							</div>
-					</div>
-				</div>
-			</section>
-			<section class="our-process" id="about">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6" data-aos="fade-up">
-							<h5 class="text-dark">Our work process</h5>
-							<h3 class="font-weight-medium text-dark">Discover New Idea With Us!</h3>
-							<h5 class="text-dark mb-3">Imagination will take us everywhere</h5>
-							<p class="font-weight-medium mb-4">
-								We foster a culture of collaboration where we encourage you to bring your
-								innovative ideas or real-world challenges to the table.
-								<br>
+    <!-- CSS
+    ============================================ -->
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/all.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/flaticon.css">
 
-								Together, we'll:
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
 
-							</p>
-							<div class="d-flex justify-content-start mb-3">
-								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
-								<p class="mb-0">Brainstorm</p>
-							</div>
-							<div class="d-flex justify-content-start mb-3">
-								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
-								<p class="mb-0">Ideate</p>
-							</div>
-							<div class="d-flex justify-content-start">
-								<img src="images/tick.png" alt="tick" class="mr-3 tick-icon"  >
-								<p class="mb-0">Develop solutions tailored to unique technical service needs.</p>
-							</div>
-						</div>
-						<div class="col-sm-6 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-							<img src="images/idea.png" alt="idea" class="img-fluid">
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="our-projects" id="projects">
-				<div class="container">
-					<div class="row mb-5">
-						<div class="col-sm-12">
-							<div class="d-sm-flex justify-content-between align-items-center mb-2">
-								<h3 class="font-weight-medium text-dark ">Let's See Our Latest Project</h3>
-								<div><a href="#" class="btn btn-outline-primary">View more</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mb-5" data-aos="fade-up">
-					<div class="owl-carousel-projects owl-carousel owl-theme">
-						<div class="item">
-							<img src="images/carousel/slider1.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider2.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider3.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider4.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider5.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider1.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider2.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider3.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider4.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider5.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider1.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider2.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider3.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider4.jpg" alt="slider">
-						</div>
-						<div class="item">
-							<img src="images/carousel/slider5.jpg" alt="slider">
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="row pt-5 mt-5 pb-5 mb-5">
-						<div class="col-sm-3">
-							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
-								<img src="images/satisfied-client.svg" alt="satisfied-client" class="mr-3">
-								<div>
-									<h4 class="font-weight-bold text-dark mb-0"><span class="scVal">0</span>%</h4>
-									<h5 class="text-dark mb-0">Satisfied clients</h5>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
-								<img src="images/finished-project.svg" alt="satisfied-client" class="mr-3">
-								<div>
-									<h4 class="font-weight-bold text-dark mb-0"><span class="fpVal">0</span></h4>
-									<h5 class="text-dark mb-0">Finished Project</h5>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
-								<img src="images/team-members.svg" alt="Team Members" class="mr-3">
-								<div>
-									<h4 class="font-weight-bold text-dark mb-0"><span class="tMVal">0</span></h4>
-									<h5 class="text-dark mb-0">Awards and Recognitions</h5>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
-								<img src="images/our-blog-posts.svg" alt="Our Blog Posts" class="mr-3">
-								<div>
-									<h4 class="font-weight-bold text-dark mb-0"><span class="bPVal">13500</span></h4>
-									<h5 class="text-dark mb-0">Total Working Hours</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="testimonial" id="team">
-				<div class="container">
-					<div class="row  mt-md-0 mt-lg-4">
-						<div class="col-sm-6 text-white" >
-							<p class="font-weight-bold mb-3">Meet the Team</p>
-							<h3 class="font-weight-medium">Unleash the Power of <br>Teamwork!</h3>
-							<ul class="flipster-custom-nav">
-								<li class="flipster-custom-nav-item">
-									<a href="javascript:;" class="flipster-custom-nav-link" title="0"></a>
-								</li>
-								<li class="flipster-custom-nav-item">
-									<a href="javascript:;" class="flipster-custom-nav-link"  title="1"></a>
-								</li>
-								<li class="flipster-custom-nav-item">
-									<a href="javascript:;" class="flipster-custom-nav-link active" title="2"></a>
-								</li>
-								<li class="flipster-custom-nav-item">
-									<a href="javascript:;" class="flipster-custom-nav-link"  title="3"></a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-sm-6" data-aos="fade-up">
-							<div id="testimonial-flipster">
-								<ul>
-									<li>
-										<div class="testimonial-item">
-											<img src="images/testimonial/anuvart.jpg" alt="icon" class="testimonial-icons">
-											<!--<p>Lorem ipsum dolor sit amet, consectetur
-												pretium pretium tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium
-											</p>-->
-											<h6 class="testimonial-author">Anuvart kumar</h6>
-											<p class="testimonial-destination">Chief Relationship Manager</p>
-										</div>
-									</li>
-									<li>
-										<div class="testimonial-item">
-											<img src="images/testimonial/devdutt.jpg" alt="icon" class="testimonial-icons">
-											<!--<p>Lorem ipsum dolor sit amet, consectetur
-												pretium pretium tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium
-											</p>-->
-											<h6 class="testimonial-author">Devdutt</h6>
-											<p class="testimonial-destination">IoT & Designing Lead</p>
-										</div>
-									</li>
-									<li>
-										<div class="testimonial-item">
-											<img src="images/testimonial/dhrv.jpg" alt="icon" class="testimonial-icons">
-											<!--<p>Lorem ipsum dolor sit amet, consectetur
-												pretium pretium tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium
-											</p>-->
-											<h6 class="testimonial-author">Dhruv Sharma</h6>
-											<p class="testimonial-destination">Tech & Hardware Lead</p>
-										</div>
-									</li>
-									<li>
-										<div class="testimonial-item">
-											<img src="images/testimonial/nilansh.jpg" alt="icon" class="testimonial-icons">
-											<!--<p>Lorem ipsum dolor sit amet, consectetur
-												pretium pretium tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium
-											</p>-->
-											<h6 class="testimonial-author">Nilansh Khurana</h6>
-											<p class="testimonial-destination">AI & Software Lead</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
-			<section class="clients pt-5 mt-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="d-sm-flex justify-content-between align-items-center">
-								<img src="images/deloit.svg" alt="deloit" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
-								<img src="images/erricson.svg" alt="erricson" class="p-2 p-lg-0" data-aos="fade-up"  data-aos-offset="-400">
-								<img src="images/netflix.svg" alt="netflix" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
-								<img src="images/instagram.svg" alt="instagram" class="p-2 p-lg-0" data-aos="fade-up"  data-aos-offset="-400">
-								<img src="images/coinbase.svg" alt="coinbase" class="p-2 p-lg-0" data-aos="fade-down"  data-aos-offset="-400">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <!-- <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+
+</head>
+
+<body>
+
+    <div class="main-wrapper">
 
 
-			<!--<section class="pricing-list" id="plans">
-				<div class="container">
-					<div class="row" data-aos="fade-up" data-aos-offset="-500">
-						<div class="col-sm-12">
-							<div class="d-sm-flex justify-content-between align-items-center mb-2">
-								<div>
-									<h3 class="font-weight-medium text-dark ">Checkout Pricing Plan</h3>
-									<h5 class="text-dark ">Lorem ipsum dolor sit amet, consectetur pretium pretium tempor. Lorem ipsum dolor </h5>
-								</div>
-								<div class="mb-5 mb-lg-0 mt-3 mt-lg-0">
-									<div class="d-flex align-items-center">
-										<p class="mr-2 font-weight-medium monthly text-active check-box-label">Monthly</p>
-										<label class="toggle-switch toggle-switch">
-										<input type="checkbox" checked  id="toggle-switch">
-										<span class="toggle-slider round"></span>
-										</label>
-										<p class="ml-2 font-weight-medium yearly check-box-label">Yearly</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row"  data-aos="fade-up" data-aos-offset="-300">
-						<div class="col-sm-4">
-							<div class="pricing-box">
-								<img src="images/starter.svg" alt="starter">
-								<h6 class="font-weight-medium title-text">Starter Business</h6>
-								<h1 class="text-amount mb-4 mt-2">$23</h1>
-								<ul class="pricing-list">
-									<li>Create a free website</li>
-									<li>Connect Domain</li>
-									<li>Business and ecommerce</li>
-									<li>Idea for smaller professional websites</li>
-									<li>Web space</li>
-								</ul>
-								<a href="#" class="btn btn-outline-primary">Puchase Now</a>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="pricing-box selected">
-								<img src="images/proffessional.svg" alt="starter">
-								<h6 class="font-weight-medium title-text">Professional</h6>
-								<h1 class="text-amount mb-4 mt-2">$45</h1>
-								<ul class="pricing-list">
-									<li>Create a free website</li>
-									<li>Connect Domain</li>
-									<li>Business and ecommerce</li>
-									<li>Idea for smaller professional websites</li>
-									<li>Web space</li>
-								</ul>
-								<a href="#" class="btn btn-primary">Puchase Now</a>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="pricing-box">
-								<img src="images/premium.svg" alt="starter">
-								<h6 class="font-weight-medium title-text">Premium</h6>
-								<h1 class="text-amount mb-4 mt-2">$87</h1>
-								<ul class="pricing-list">
-									<li>Create a free website</li>
-									<li>Connect Domain</li>
-									<li>Business and ecommerce</li>
-									<li>Idea for smaller professional websites</li>
-									<li>Web space</li>
-								</ul>
-								<a href="#" class="btn btn-outline-primary">Puchase Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>-->
+        <!-- Preloader start -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Preloader End -->
+        <!-- Header Start  -->
+        <div id="header" class="section header-section header-section-05">
+
+            <div class="container">
+
+                <!-- Header Wrap Start  -->
+                <div class="header-wrap">
+
+                    <div class="header-logo">
+                        <a href="index.html"><img src="assets/images/alobytes4.png" alt=""></a>
+                    </div>
+
+                    <div class="header-menu d-none d-lg-block">
+                        <ul class="main-menu">
+                            <li class="active-menu">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">Aboute Us</a>
+                            </li>
+                            <li>
+                                <a href="choose-us.html">Services</a>
+
+                            </li>
+                            <li>
+                                <a href="blog.html">Our Work</a>
+
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Header Meta Start -->
+                    <div class="header-meta">
+                        <!-- Header Social Start -->
+                        <div class="header-social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Header Social End -->
+                        <!-- Header Toggle Start -->
+                        <div class="header-toggle d-lg-none">
+                            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                        <!-- Header Toggle End -->
+                    </div>
+                    <!-- Header Meta End  -->
+
+                </div>
+                <!-- Header Wrap End  -->
+
+            </div>
+        </div>
+        <!-- Header End -->
+        <!-- Offcanvas Start-->
+        <div class="offcanvas offcanvas-start" id="offcanvasExample">
+            <div class="offcanvas-header">
+                <!-- Offcanvas Logo Start -->
+                <div class="offcanvas-logo">
+                    <a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
+                </div>
+                <!-- Offcanvas Logo End -->
+                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
+            </div>
+
+            <!-- Offcanvas Body Start -->
+            <div class="offcanvas-body">
+                <div class="offcanvas-menu">
+                    <ul class="main-menu">
+                        <li class="active-menu">
+                            <a href="index.html">Home</a>
+
+                        </li>
+                        <li>
+                            <a href="about.html">Aboute Us</a>
+                        </li>
+                        <li>
+                            <a href="choose-us.html">Services</a>
+
+                        </li>
+                        <li>
+                            <a href="blog.html">Our Work</a>
+
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Offcanvas Body End -->
+        </div>
+        <!-- Offcanvas End -->
+        <!-- Hero Start -->
+        <div class="section techwix-hero-section-05">
+            <!--<div class="techwix-hero-wrap" style="background-image: url(assets/images/bg/video3.m4);">-->
+            <div class="techwix-hero-wrap">
+
+                <video id="background-video" playsinline autoplay muted loop poster="assets/images/bg/hero-bg-5.jpg">
+                    <source src="assets/images/bg/video3.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <!-- Hero Content Start -->
+                            <div class="hero-content">
+                                <h2 class="title" data-aos="fade-up" data-aos-delay="800">Transforming Ideas into  <span>Innovative</span> Solutions!</h2>
+                                <p data-aos="fade-up" data-aos-delay="900">Elevating Possibilities, From AI to the Web, IoT to Hardware, 3D designing to App development</p>
+                                <br />
+                                <!--<h3 class="sub-title" data-aos-delay="100" data-aos="fade-up">
+                                    – We’ve Got It All Covered!
+
+                                </h3>-->
+
+                                <div class="hero-btn" data-aos="fade-up" data-aos-delay="1000">
+                                    <a class="btn" href="#services">We’ve Got It All Covered!</a>
+                                </div>
+                            </div>
+                            <!-- Hero Content End -->
+                        </div>
+                        <!--<div class="col-lg-6">-->
+                        <!-- Hero Image Start -->
+                        <!--<div class="hero-images">
+                            <div class="images">
+                                <img src="assets/images/hero-img.png" alt="">
+                            </div>
+                        </div>-->
+                        <!-- Hero Image ennd -->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
 
 
-			<section class="contactus" id="contact">
-				<div class="container">
-					<div class="row mb-5 pb-5">
-						<div class="col-sm-5">
-							<img src="images/contact.jpg" alt="contact" class="img-fluid">
-						</div>
-						<div class="col-sm-7">
-							<h3 class="font-weight-medium text-dark mt-5 mt-lg-0">Got A Problem</h3>
-							<h5 class="text-dark mb-5">We believe in bringing change in technology that can truly impact lives!</h5>
-							<form>
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="name" placeholder="Name*">
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="form-group">
-											<input type="email" class="form-control" id="mail" placeholder="Email*">
-										</div>
-									</div>
-									<div class="col-sm-12">
-										<div class="form-group">
-											<textarea name="message" id="message" class="form-control" placeholder="Message*" rows="5"></textarea>
-										</div>
-									</div>
-									<div class="col-sm-12">
-										<a href="#" class="btn btn-secondary">SEND</a>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		<footer class="footer">
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6">
-							<address>
-								<p>Manav Rachna University,</p>
-								<p class="mb-4">Sector 43, Faridabad, Haryana</p>
-								<div class="d-flex align-items-center">
-									<p class="mr-4 mb-0">+91-9525204775 </p>
-									<a href="mailto:info@alobytes.com" class="footer-link">info@alobytes.com</a>
-								</div>
-								<!--<div class="d-flex align-items-center">
-									<p class="mr-4 mb-0">+1 222 345 342</p>
-									<a href="mailto:Marshmallow@yourmail.com" class="footer-link">Marshmallow@yourmail.com</a>
-								</div>-->
-							</address>
-							<div class="social-icons">
-								<h6 class="footer-title font-weight-bold">
-									Social Share
-								</h6>
-								<div class="d-flex">
-									<a href="#"><i class="mdi mdi-github-circle"></i></a>
-									<a href="#"><i class="mdi mdi-facebook-box"></i></a>
-									<a href="#"><i class="mdi mdi-twitter"></i></a>
-									<a href="#"><i class="mdi mdi-dribbble"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="row">
-								<div class="col-sm-4">
-									<h6 class="footer-title">Social Share</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">Home</a></li>
-										<li><a href="#" class="footer-link">About</a></li>
-										<li><a href="#" class="footer-link">Services</a></li>
-										<li><a href="#" class="footer-link">Portfolio</a></li>
-										<li><a href="#" class="footer-link">Contact</a></li>
-									</ul>
-								</div>
-								<div class="col-sm-4">
-									<h6 class="footer-title">Product</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">PCB and IoT</a></li>
-										<li><a href="#" class="footer-link">Web Development</a></li>
-										<li><a href="#" class="footer-link">App Development</a></li>
-										<li><a href="#" class="footer-link">3D Design</a></li>
-										<li><a href="#" class="footer-link">Data Science</a></li>
+        <div class="section techwix-service-section-05" id="services">
+            <div class="container">
+                <!-- Service Wrap Start -->
+                <div class="service-wrap section-padding-02">
+                    <div class="section-title text-center">
+                        <h3 class="sub-title">We're Offering</h3>
+                        <h2 class="title">
+                            Creative Solutions Services
+                        </h2>
+                    </div>
+                    <div class="service-content-wrap">
+                        <div class="row">
+                            <div class="col-xl-3 col-sm-6" id="myBtn">
+                                <!-- Service Item Start -->
+                                <div class="service-item-04">
+                                    <div class="service-img">
+                                        <center>  <img src="assets/images/ser-icon14.png" alt=""></center>
+                                    </div>
+                                    <div class="service-content">
+                                        <h3 class="title" align="center"><a>AI/ML Solutions</a></h3>
+                                        <p align="justify">Our suite of AI services is designed to empower businesses across industries, revolutionizing the way they operate and excel in a rapidly evolving digital landscape.</p>
+                                        <span style="color:blue; font-size:12px">[Know More]</span>
+                                        <div class="popup" id="popup-ai">
+                                            <!--div class="close-button" onclick="closePopup()">-->
+                                            <!--<button id="spu-close-popup"  onclick="closePopup()">
+            X
+        </button>-->
+                                            <!--<img src="assets/images/cross.png" class="spu-close-popup" />
+        </div>-->
 
-									</ul>
-								</div>
-								<div class="col-sm-4">
-									<h6 class="footer-title">Company</h6>
-									<ul class="list-footer">
-										<li><a href="#" class="footer-link">Partners</a></li>
-										<li><a href="#" class="footer-link">Investors</a></li>
-										<li><a href="#" class="footer-link">Terms & Conditions</a></li>
-										<li><a href="#" class="footer-link">FAQ</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="d-flex justify-content-between align-items-center">
-						<div class="d-flex align-items-center">
-							<img src="images/alobytes3.png" alt="logo" class="mr-3"></br>
-							<p class="mb-0 text-small pt-1">© 2023-2024 <a href="https://www.nilanshkhurana.com" class="text-white" target="_blank">Alobytes</a>. All rights reserved.</p>
-            
-						</div>
-           
-						<div>
-							<div class="d-flex">
-								<a href="#" class="text-small text-white mx-2 footer-link">Privacy Policy </a>          
-								<a href="#" class="text-small text-white mx-2 footer-link">Customer Support </a>
-								<a href="#" class="text-small text-white mx-2 footer-link">Careers Guide</a>
-							</div>
-						</div>
-					</div>
 
-				</div>
-			</div>
-		</footer>
-		<script src="vendors/base/vendor.bundle.base.js"></script>
-		<script src="vendors/owl.carousel/js/owl.carousel.js"></script>
-		<script src="vendors/aos/js/aos.js"></script>
-		<script src="vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
-		<script src="js/template.js"></script>
-	</body>
+                                            <span class="closeB">&times;</span>
+                                            <!--<p>Some text in the Modal..</p>-->
+                                            <div class="section techwix-choose-us-section-home section-padding" style="background-image: url(assets/images/bg/hero-bg1.png); background-repeat: no-repeat; background-size: 100% 100%; ">
+                                                <div class="container">
+                                                    <!-- Choose Us Wrap Start -->
+                                                    <div class="choose-us-wrap">
+                                                        <div class="section-title2 text-center">
+                                                            <!--<h3 class="title">Here we harness the power of Artificial Intelligence to drive innovation, efficiency, and transformative experiences. </h3>-->
+                                                            <h3 class="title">Artificial Intelligence Solutions</h3>
+
+                                                            <p>
+                                                                Our team of seasoned professionals combines technical expertise with a deep understanding of industry dynamics to deliver AI solutions
+                                                                that not only meet but exceed your expectations.
+                                                            </p>
+
+
+                                                        </div>
+
+
+                                                        <div class="choose-us-content-wrap">
+                                                            <div class="row">
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/ser-icon9.png" alt=""> </center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Predictive Analytics</h3> </center>
+                                                                            <p align="justify">
+                                                                                We design complex and advanced algorithms to anticipate trends, identify opportunities,
+                                                                                and make data-driven decisions that propel your business forward.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/counter-3.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Natural Languae Processing (NLP)</h3> </center>
+                                                                            <p align="justify">From chatbots that provide instant support to sentiment analysis that gauges user feedback, we enable businesses to connect and engage in a more human-like manner.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center><img src="assets/images/computer-vision.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Computer Vision</h3></center>
+                                                                            <p align="justify">From image recognition to video analysis, our solutions open new possibilities for industries ranging from healthcare to retail.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>   <img src="assets/images/ser-icon21.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center>  <h3 class="title">Custom AI Development</h3> </center>
+                                                                            <p>Our expert team collaborates with you to design, develop, and implement custom AI applications that align with your goals and objectives.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <!-- Choose Us Item End -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Choose Us Wrap End -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- Service Item End -->
+                            </div>
+                            <div class="col-xl-3 col-sm-6" id="myBtn2">
+                                <!-- Service Item Start -->
+                                <div class="service-item-04" id="myBtn2">
+                                    <div class="service-img">
+                                        <center>    <img src="assets/images/processor.png" alt=""></center>
+                                    </div>
+                                    <div class="service-content">
+                                        <h3 class="title" align="center">Hardware Tech</h3>
+
+
+                                        <p align="justify">Our range of hardware solutions is crafted to empower businesses with robust, reliable, and innovative technologies, ensuring they stay ahead in a digitally connected era.</p>
+                                        <span style="color:blue; font-size:12px">[Know More]</span>
+
+                                        <!-- harware popupppppp more information1111111111111111 -->
+                                        <div class="popup" id="popup-hw">
+                                            <!--div class="close-button" onclick="closePopup()">-->
+                                            <!--<button id="spu-close-popup"  onclick="closePopup()">
+            X
+        </button>-->
+                                            <!--<img src="assets/images/cross.png" class="spu-close-popup" />
+        </div>-->
+
+
+                                            <span class="closeB">&times;</span>
+                                            <!--<p>Some text in the Modal..</p>-->
+                                            <div class="section techwix-choose-us-section-home section-padding" style="background-image: url(assets/images/bg/hero-bg1.png); background-repeat: no-repeat; background-size: 100% 100%; ">
+                                                <div class="container">
+                                                    <!-- Choose Us Wrap Start -->
+                                                    <div class="choose-us-wrap">
+                                                        <div class="section-title2 text-center">
+                                                            <h3 class="title">Hardware & Electronic Solutions</h3>
+                                                            <p>
+                                                                We understand that the right hardware is the backbone of technological advancement. 
+                                                                Our team of experts combines technical prowess with a commitment to quality to deliver hardware solutions that empower your business to thrive in the digital age.
+                                                            </p>
+
+
+                                                        </div>
+
+
+                                                        <div class="choose-us-content-wrap">
+                                                            <div class="row" style="justify-content: center;">
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/embedded.png" alt=""> </center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Embedded Systems</h3> </center>
+                                                                            <p align="justify">
+                                                                                Whether you need Custom embedded systems, industrial controllers, or specialized computing platforms, we create solutions that align perfectly with your vision.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/pcb.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">PCB Design and Manufacturing</h3> </center>
+                                                                            <p align="justify">From concept to prototype and production, we deliver high-quality, precision-engineered circuit boards that form the foundation of cutting-edge electronic devices.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center><img src="assets/images/iot.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">IoT Connectivity Solutions</h3></center>
+                                                                            <p align="justify">We are specialize in developing hardware that enables seamless communication between devices, offering a foundation for smart homes, industrial automation, and other IoT applications.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <!--<div class="col-xl-3 col-lg-4 col-md-6">-->
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <!--<div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <img src="assets/images/ser-icon12.png" alt="">
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <h3 class="title">Custom AI Development</h3>
+                                                                            <p>Our expert team collaborates with you to design, develop, and implement custom AI applications that align with your goals and objectives.</p>
+                                                                        </div>
+                                                                    </div>-->
+                                                                    <!-- Choose Us Item End -->
+                                                                <!--</div>-->
+                                                                <!-- Choose Us Item End -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Choose Us Wrap End -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Service Item End -->
+                            </div>
+                            <div class="col-xl-3 col-sm-6" id="myBtn3">
+                                <!-- Service Item Start -->
+                                <div class="service-item-04" id="myBtn3">
+                                    <div class="service-img">
+                                        <center><img src="assets/images/it.png" alt=""></center>
+                                    </div>
+                                    <div class="service-content">
+                                        <h3 align ="center" class="title">IT & Software</h3>
+                                        <p align="justify">We specialize in providing cutting-edge IT and software solutions that propel businesses to new heights of efficiency, innovation, and success. </p>
+                                        <span  style="color:blue; font-size:12px;">[Know More]</span>
+                                        <div class="popup" id="popup-sw">
+                                            <!--div class="close-button" onclick="closePopup()">-->
+                                            <!--<button id="spu-close-popup"  onclick="closePopup()">
+            X
+        </button>-->
+                                            <!--<img src="assets/images/cross.png" class="spu-close-popup" />
+        </div>-->
+
+
+                                            <span class="closeB">&times;</span>
+                                            <!--<p>Some text in the Modal..</p>-->
+                                            <div class="section techwix-choose-us-section-home section-padding" style="background-image: url(assets/images/bg/hero-bg1.png); background-repeat: no-repeat; background-size: 100% 100%; ">
+                                                <div class="container">
+                                                    <!-- Choose Us Wrap Start -->
+                                                    <div class="choose-us-wrap">
+                                                        <div class="section-title2 text-center">
+                                                            <h3 class="title">Software & Digital Solutions</h3>
+                                                            <p>
+                                                                We understand that the digital landscape is constantly evolving. Our team of seasoned professionals 
+                                                                is committed to delivering IT and software solutions that not only meet your current needs but also position your business for future success.
+                                                            </p>
+
+
+                                                        </div>
+
+
+                                                        <div class="choose-us-content-wrap">
+                                                            <div class="row" style="justify-content: center;">
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/mobile.png" alt=""> </center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Mobile App Development</h3> </center>
+                                                                            <p align="justify">
+                                                                                We design and develop innovative, user-friendly mobile applications for iOS and Android platforms, ensuring a seamless user experience that aligns with your brand.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <!--<div class="col-xl-3 col-lg-4 col-md-6">-->
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <!--<div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/counter-3.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">PCB Design and Manufacturing</h3> </center>
+                                                                            <p align="justify">From concept to prototype and production, we deliver high-quality, precision-engineered circuit boards that form the foundation of cutting-edge electronic devices.</p>
+                                                                        </div>
+                                                                    </div>-->
+                                                                    <!-- Choose Us Item End -->
+                                                                <!--</div>-->
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center><img src="assets/images/full.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Full Stack Deevelopment</h3></center>
+                                                                            <p align="justify">Our skilled engineers and developers handle everything from backend infrastructure to frontend interfaces, ensuring a cohesive and high-performing product..</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <!--<div class="col-xl-3 col-lg-4 col-md-6">-->
+                                                                <!-- Choose Us Item Start -->
+                                                                <!--<div class="choose-us-item-02">
+                                <div class="choose-us-img">
+                                    <img src="assets/images/ser-icon12.png" alt="">
+                                </div>
+                                <div class="choose-us-content">
+                                    <h3 class="title">Custom AI Development</h3>
+                                    <p>Our expert team collaborates with you to design, develop, and implement custom AI applications that align with your goals and objectives.</p>
+                                </div>
+                            </div>-->
+                                                                <!-- Choose Us Item End -->
+                                                                <!--</div>-->
+                                                                <!-- Choose Us Item End -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Choose Us Wrap End -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Service Item End -->
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <!-- Service Item Start -->
+                                <div class="service-item-04" id="myBtn4">
+                                    <div class="service-img" id="myBtn4">
+                                        <center>   <img src="assets/images/product.png" alt=""></center>
+                                    </div>
+                                    <div class="service-content">
+                                        <h3 class="title" align="center">Product Building</a></h3>
+                                        <p align="justify">We specialize in turning ideas into reality through our comprehensive product building services. Explore how our expertise, creativity, and commitment to excellence can bring your vision to life.</p>
+
+                                        <span style="color:blue; font-size:12px">[Know More]</span>
+                                        <div class="popup" id="popup-pd">
+                                            <!--div class="close-button" onclick="closePopup()">-->
+                                            <!--<button id="spu-close-popup"  onclick="closePopup()">
+            X
+        </button>-->
+                                            <!--<img src="assets/images/cross.png" class="spu-close-popup" />
+        </div>-->
+
+
+                                            <span class="closeB">&times;</span>
+                                            <!--<p>Some text in the Modal..</p>-->
+                                            <div class="section techwix-choose-us-section-home section-padding" style="background-image: url(assets/images/bg/hero-bg1.png); background-repeat: no-repeat; background-size: 100% 100%; ">
+                                                <div class="container">
+                                                    <!-- Choose Us Wrap Start -->
+                                                    <div class="choose-us-wrap">
+                                                        <div class="section-title2 text-center">
+                                                            <h3 class="title">Innovative Product Building</h3>
+                                                            <p>
+                                                                We are not just building products; we are shaping experiences. Our team of passionate professionals is dedicated to turning your
+                                                                ideas into successful, market-ready products that stand out in a competitive landscape.
+                                                            </p>
+
+
+                                                        </div>
+
+
+                                                        <div class="choose-us-content-wrap">
+                                                            <div class="row" style="justify-content: center;">
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/prototype.png" alt=""> </center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Prototyping and MVP Development</h3> </center>
+                                                                            <p align="justify">
+                                                                                Rapidly bring your concept to life with our prototyping and Minimum Viable Product (MVP) development services.
+                                                                                Our iterative approach allows you to test and validate key features, ensuring your product meets user needs and market demands.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                                
+                                                                
+                                                                
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center>  <img src="assets/images/ui-ux.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Custom Product Design</h3> </center>
+                                                                            <p align="justify">From user interface (UI) and user experience (UX) design to creating visually appealing and intuitive interfaces, 
+                                                                            we prioritize design that resonates with your target audience.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>            
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <!-- Choose Us Item Start -->
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center><img src="assets/images/idea.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <center> <h3 class="title">Ideation and Conceptualization</h3></center>
+                                                                            <p align="justify">We work closely with you to refine ideas, validate concepts, and create a solid foundation for your product vision.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Choose Us Item End -->
+                                                                </div>
+                                                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                                                    <div class="choose-us-item-02">
+                                                                        <div class="choose-us-img">
+                                                                            <center><img src="assets/images/3d.png" alt=""></center>
+                                                                        </div>
+                                                                        <div class="choose-us-content">
+                                                                            <h3 class="title">3D Designing and Printing</h3>
+                                                                            <p align="justify"> Our 3D designing and printing services redefine what's possible, offering precision, customization, and efficiency in every layer with advanced indsutrial printers.
+                                                                            
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- Choose Us Item End -->
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Choose Us Wrap End -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Service Item End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Wrap End -->
+            </div>
+        </div>
+        <!-- Service End -->
+        <!-- About Start -->
+        <div class="section techwix-about-section-05 section-padding" id="about">
+            <div class="container">
+                <!-- About Wrap Start -->
+                <div class="about-wrap">
+                    <div class="section-title text-center">
+                        <h3 class="sub-title">Our Work Process</h3>
+                        <h2 class="title">
+                            Discover New Idea With Us!
+                        </h2>
+                        <h2 class="sub-title">
+                            Imagination will take us everywhere
+                        </h2>
+
+
+                    </div>
+                    <!-- About Content Wrap Start -->
+                    <div class="about-content-wrap">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <!-- About Image Wrap Start -->
+                                <div class="about-img-wrap">
+                                    <div class="about-img about-img-big">
+                                        <img src="assets/images/about-big3.jpg" alt="">
+                                    </div>
+                                    <div class="about-img about-img-sm">
+                                        <img src="assets/images/about-sm3.jpg" alt="">
+                                        <div class="shape-01"></div>
+                                    </div>
+                                </div>
+                                <!-- About Image Wrap End -->
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- About Content Start -->
+                                <div class="about-content">
+                                    <p class="title">Accelerate innovation with world-class tech teams. We’ll match you to an entire remote team of incredible talents!</p>
+                                    <p class="text">
+                                        We foster a culture of collaboration where we encourage you to bring your innovative ideas or real-world challenges to the table.
+                                       <br /> Together, we'll:
+                                    </p>
+                                    <!-- About List Item Wrap Start -->
+                                    <div class="about-list-item-wrap">
+                                        <div class="about-list-item">
+                                            <div class="about-img">
+                                                <img src="assets/images/star.png" alt="" width="32" height="32">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Brainstorm</h3>
+                                                <!--<p>Accelerate innovation with world-class tech teams</p>-->
+                                            </div>
+                                        </div>
+
+                                        <div class="about-list-item">
+                                            <div class="about-img">
+                                                <img src="assets/images/star.png" alt="" width="32" height="32">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Ideate and Conceptualize</h3>
+                                                <!--<p>Accelerate innovation with world-class tech teams</p>-->
+                                            </div>
+                                        </div>
+
+                                        <div class="about-list-item">
+                                            <div class="about-img">
+                                                <img src="assets/images/star.png" alt="" width="32" height="32">
+                                            </div>
+                                            <div class="about-text">
+                                                <h3 class="title">Develop solutions tailored to unique technical service needs.</h3>
+                                                <!--<p>Accelerate innovation with world-class tech teams</p>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- About List Item Wrap End -->
+                                </div>
+                                <!-- About Content End -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About Content Wrap End -->
+                </div>
+                <!-- About Wrap End -->
+            </div>
+        </div>
+        <!-- About End -->
+        <!-- Service Start -->
+        <!-- Counter Start -->
+        <div class="section techwix-counter-section-03" style="background-image: url(assets/images/bg/counter-bg.jpg);">
+            <div class="container">
+                <div class="counter-wrap">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter-02 text-center">
+                                <span><span class="counter">35</span>+</span>
+                                <p>Completed Projects</p>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter-02 text-center">
+                                <span><span class="counter">19</span>+</span>
+                                <p>Awards & Recognitions</p>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter-02 text-center">
+                                <span><span class="counter">99</span>%</span>
+                                <p>Satisfied Clients</p>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Single Counter Start -->
+                            <div class="single-counter-02 text-center">
+                                <span><span class="counter">1069</span>+</span>
+                                <p>Total Working Hours</p>
+                            </div>
+                            <!-- Single Counter End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+        <!-- Solution Start -->
+        <div class="section techwix-solution-section section-padding">
+            <div class="container">
+                <!-- Solution Wrap Start -->
+                <div class="solution-wrap">
+                    <div class="section-title text-center">
+                        <h3 class="sub-title"> WE Deliver Excellence</h3>
+                        <h2 class="title">Some Glimpse of Our Work</h2>
+                    </div>
+                    <!-- Solution Content Wrap Start -->
+                    <div class="solution-content-wrap">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Solution Item Start -->
+                                <div class="solution-item solution-item-big">
+                                    <div class="solution-img">
+                                        <img src="assets/images/solution-1.jpg" alt="">
+                                    </div>
+                                    <div class="solution-content">
+                                        <div class="solution-title">
+                                            <h4 class="sub-title">Machine</h4>
+                                            <h3 class="title">Categorizing Airbnb Listing Photos Using Tensorflow</h3>
+                                        </div>
+                                        <a class="play-btn popup-video" href="blog-puraire.html"><i class="fas fa-play"></i></a>
+                                    </div>
+
+
+
+                             
+                                </div>
+                                <!-- Solution Item End -->
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!-- Solution Item Start -->
+                                        <div class="solution-item solution-item-sm">
+                                            <div class="solution-img">
+                                                <a href="#"><img src="assets/images/solution-img2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="solution-content">
+                                                <div class="solution-title">
+                                                    <h4 class="sub-title">Data Mining</h4>
+                                                    <h3 class="title"><a href="#">Generative Adversarial Networks With Ml</a></h3>
+                                                </div>
+                                                <a class="play-btn popup-video" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
+                                            </div>
+                                        </div>
+                                        <!-- Solution Item End -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <!-- Solution Item Start -->
+                                        <div class="solution-item solution-item-sm">
+                                            <div class="solution-img">
+                                                <a href="#"><img src="assets/images/solution-img3.jpg" alt=""></a>
+                                            </div>
+                                            <div class="solution-content">
+                                                <div class="solution-title">
+                                                    <h4 class="sub-title">Data Mining</h4>
+                                                    <h3 class="title"><a href="#">Generative Adversarial Networks With Ml</a></h3>
+                                                </div>
+                                                <a class="play-btn popup-video" href="https://www.youtube.com/watch?time_continue=3&v=_X0eYtY8T_U"><i class="fas fa-play"></i></a>
+                                            </div>
+                                        </div>
+                                        <!-- Solution Item End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Solution Content Wrap End -->
+                </div>
+                <!-- Solution Wrap End -->
+            </div>
+        </div>
+        <!-- Solution End -->
+        <!-- Testimonial Start  -->
+        <div class="section bg-cover techwix-testimonial-section-02 techwix-testimonial-section-03 section-padding" style="background-image: url(assets/images/bg/testi-bg4.jpg);">
+            <div class="container">
+                <!-- Testimonial Wrap Start  -->
+                <div class="testimonial-wrap-02">
+                    <div class="section-title text-center">
+                        <h3 class="sub-title">Testimonial</h3>
+                        <h2 class="title">20k+ satisfied clients worldwide</h2>
+                    </div>
+                    <div class="testimonial-content-wrap-02">
+                        <div class="swiper-container testimonial-02-active">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <!--  Single Testimonial Start  -->
+                                    <div class="single-testimonial-02">
+                                        <div class="testimonial-thumb">
+                                            <img src="assets/images/testi-3.jpg" alt="">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <img src="assets/images/testi-icon.png" alt="">
+                                            <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
+                                            <span class="name">Mike Holder </span>
+                                            <span class="designation"> / CEO, Harlond inc</span>
+                                        </div>
+                                    </div>
+                                    <!--  Single Testimonial End  -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!--  Single Testimonial Start  -->
+                                    <div class="single-testimonial-02">
+                                        <div class="testimonial-thumb">
+                                            <img src="assets/images/testi-4.jpg" alt="">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <img src="assets/images/testi-icon.png" alt="">
+                                            <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
+                                            <span class="name">Mike Fermalin </span>
+                                            <span class="designation"> / CEO, Harlond inc</span>
+                                        </div>
+                                    </div>
+                                    <!--  Single Testimonial End  -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <!--  Single Testimonial Start  -->
+                                    <div class="single-testimonial-02">
+                                        <div class="testimonial-thumb">
+                                            <img src="assets/images/testi-3.jpg" alt="">
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <img src="assets/images/testi-icon.png" alt="">
+                                            <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
+                                            <span class="name">Mike Holder </span>
+                                            <span class="designation"> / CEO, Harlond inc</span>
+                                        </div>
+                                    </div>
+                                    <!--  Single Testimonial End  -->
+                                </div>
+                            </div>
+
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial Wrap End  -->
+            </div>
+        </div>
+        <!-- Testimonial End  -->
+        <!-- Brand Logo Start -->
+        <div class="section techwix-brand-section techwix-brand-section-03 techwix-brand-section-04 section-padding">
+            <div class="container">
+                <!-- Brand Wrapper Start -->
+                <div class="brand-wrapper text-center">
+
+                    <!-- Brand Active Start -->
+                    <div class="brand-active">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-1.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-2.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-3.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-4.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-5.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                                <!-- Single Brand Start -->
+                                <div class="swiper-slide single-brand">
+                                    <img src="assets/images/brand/brand-2.png" alt="Brand">
+                                </div>
+                                <!-- Single Brand End -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Brand Active End -->
+                </div>
+                <!-- Brand Wrapper End -->
+            </div>
+        </div>
+        <!-- Brand Logo End -->
+        <!-- Cta Start -->
+        <div class="section techwix-cta-section-03">
+            <div class="container">
+                <!-- Cta Wrap Start -->
+                <div class="cta-wrap" style="background-image: url(assets/images/bg/cta-bg2.jpg);">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <!-- Cta Content Start -->
+                            <div class="cta-content">
+                                <div class="section-title">
+                                    <h2 class="title white">To make requests for further information, contact us</h2>
+                                </div>
+                            </div>
+                            <!-- Cta Content End -->
+                        </div>
+                        <div class="col-lg-5">
+                            <!-- Cta Button Start -->
+                            <div class="cta-info text-center">
+                                <div class="cta-icon">
+                                    <img src="assets/images/cta-icon2.png" alt="">
+                                </div>
+                                <p>Call Us For Any inquiry</p>
+                                <h3 class="number">+44 920 090 505</h3>
+                            </div>
+                            <!-- Cta Button End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Cta Wrap End -->
+            </div>
+        </div>
+        <!-- Cta End -->
+        <!-- Footer Section Start -->
+        <div class="section footer-section footer-section-03" style="background-image: url(assets/images/bg/footer-bg.jpg);">
+
+            <div class="container">
+                <!-- Footer Widget Wrap Start -->
+                <div class="footer-widget-wrap">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Footer Widget Start -->
+                            <div class="footer-widget-about">
+                                <a class="footer-logo" href="index.html"><img src="assets/images/alobytes3.png" alt="Logo"></a>
+                                <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent.</p>
+                                <div class="footer-social">
+                                    <ul class="social">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Footer Widget Start -->
+                            <div class="footer-widget">
+                                <h4 class="footer-widget-title">Useful Links</h4>
+
+                                <div class="widget-link">
+                                    <ul class="link">
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">About Company</a></li>
+                                        <li><a href="#">Payment Gatway</a></li>
+                                        <li><a href="#">Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Footer Widget Start -->
+                            <div class="footer-widget">
+                                <h4 class="footer-widget-title">Our Services</h4>
+
+                                <div class="widget-link">
+                                    <ul class="link">
+                                        <li><a href="#">Data Security</a></li>
+                                        <li><a href="#">IT Managment</a></li>
+                                        <li><a href="#">Outsourcing</a></li>
+                                        <li><a href="#">Networking</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <!-- Footer Widget Start -->
+                            <div class="footer-widget">
+                                <h4 class="footer-widget-title">Contact Information</h4>
+
+                                <div class="widget-info">
+                                    <ul>
+                                        <li>
+                                            <div class="info-icon">
+                                                <i class="flaticon-phone-call"></i>
+                                            </div>
+                                            <div class="info-text">
+                                                <span><a href="#">+91 458 654 528</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="info-icon">
+                                                <i class="far fa-envelope-open"></i>
+                                            </div>
+                                            <div class="info-text">
+                                                <span><a href="#">info@example.com</a></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="info-icon">
+                                                <i class="flaticon-pin"></i>
+                                            </div>
+                                            <div class="info-text">
+                                                <span>60 East 65th Street, NY</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Footer Widget End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Widget Wrap End -->
+            </div>
+
+            <!-- Footer Copyright Start -->
+            <div class="footer-copyright-area">
+                <div class="container">
+                    <div class="footer-copyright-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-lg-12">
+                                <!-- Footer Copyright Text Start -->
+                                <div class="copyright-text text-center">
+                                    <p>© Copyrights 2022 techwix All rights reserved. </p>
+                                </div>
+                                <!-- Footer Copyright Text End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright End -->
+        </div>
+        <!-- Footer Section End -->
+        <!-- back to top start -->
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+        <!-- back to top end -->
+
+    </div>
+
+    <!-- JS
+    ============================================ -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/plugins/back-to-top.js"></script>
+    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+    <script src="assets/js/plugins/appear.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+
+
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <!-- Main JS -->
+
+
+    <script src="assets/js/main.js"></script>
+    <!--<script>
+        const popupai = document.getElementById("popup-ai")
+
+        function openPopup() {
+            popupai.classList.add("open-popup");
+        }
+
+        function openPopup() {
+            popupai.classList.remove("open-popup");
+
+        }
+    </script>-->
+</body>
+
 </html>
